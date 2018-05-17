@@ -1,25 +1,29 @@
 ﻿var cargado = 1;
-
+var activado = false;
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height()) {
-        cargar();
-	}
+	
+	
+	if ($(window).scrollTop() + $(window).height() + 1 >= $(document).height() && activado == true) {
+		cargarNoticias();
+	
+}
+	
 });
 
-function cargar() {
-    if (cargado < 3) {
-        $.getJSON("https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/json/" + cargado + ".json", function (jsonObject) {
-            addrow(jsonObject);
+function cargarNoticias() {
+	if (cargado < 3) {
+		$.getJSON("https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/json/" + cargado + ".json", function (jsonObject) {
+			añadirNoticias(jsonObject);
 		}); cargado++;
 		} else {
-        $('#mas').text('No hay más noticias');
+		$('#mas').text('No hay más noticias');
 	}
 };
 
-function addrow(json) {
-    $.each(json, function (i, item) {
-        $("#contenedor5").append(
+function añadirNoticias(json) {
+	$.each(json, function (i, item) {
+		$("#contenedor5").append(
 		'<div class="container-fluid noticias">' +
 		'<div class="row" >' +
 		'<div class="col-sm-4">' + 
@@ -33,4 +37,21 @@ function addrow(json) {
 		'</div>' +
 		'</div>');
 	})
-};
+};		
+
+$(document).ready(function(){
+	
+    $(".toggle").click(function(){
+		if (activado == false) {
+			$("#desactivado").hide();
+			$("#activado").show();
+			activado = true;
+			$("#boton").hide();
+			} else {
+			$("#activado").hide();
+			$("#desactivado").show();
+			activado = false;
+			$("#boton").show();
+		}
+	})
+	});				

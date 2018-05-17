@@ -15,8 +15,9 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<link rel='stylesheet' href='css/d.css'>
 		<link href="https://fonts.googleapis.com/css?family=Pridi" rel="stylesheet">
-		<script src="js/js.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/js.js"></script>
+		
 		
 	</head>
 	<body>
@@ -26,8 +27,12 @@
 					<li class="active"><a href="principal.html">Hollow News</a></li>
 				</ul>
 				<ul class="nav navbar-nav" id="iconos">
+					<li> <a><i title="Scroll desactivado" id="desactivado" class="fas fa-toggle-off toggle icon"></i>
+					<i title="Scroll activado" id="activado" class="fas fa-toggle-on toggle icon"></i></a>
+					</li>					
 					<li><a href="https://discord.gg/u85fXP"><i class="fab fa-discord"></i></a></li>
 					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					
 				</ul>
 			</div>
 		</nav>
@@ -37,14 +42,10 @@
 			</a>
 		</div>
 		<div id="anuncio">	
-			<a href="anuncio.html" >
-				<iframe height="600" width="300" id="anuncio2"  src="anuncio.html" ></iframe>
-			</a>
+			<iframe  id="anuncio2"   src="anuncio.html" ></iframe>
 		</div>
 		<div id="anuncio4">	
-			<a href="anunciom.html" >
-				<iframe height="147" width="180" id="anunciom"  src="anunciom.html" ></iframe>
-			</a>
+			<iframe  id="anunciom"   src="anunciom.html" ></iframe>
 		</div>
 		<div class="container-fluid" id="contenedor">
 			<div class="container-fluid noticias">
@@ -64,7 +65,6 @@
 						
 					</div>
 				</div>	
-				
 			</div>
 			
 			<div class="container-fluid noticias">
@@ -126,14 +126,11 @@
 			<div  id="contenedor5">
 				
 			</div>
+			<button onclick="cargarNoticias()" type="button" id="boton" >Cargar más noticias</button>
 			<br>
 			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
 			
 		</div>
+		
 	</body>
 </html>																																																																																																																									
