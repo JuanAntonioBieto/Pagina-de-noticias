@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
-<html style="height:90px;">
-	<head >
+<html lang="es">
+	<head>
 		<title> Hollow News </title>
 		<meta name="description" content="Noticias de Hollow Knight">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
@@ -18,25 +18,25 @@
 		<script src="js/js.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
-			
+
 			var b = ["img/anunciom.png", "img/anunciom2.png", "img/anunciom3.png", "img/anunciom4.png"];
-			
+
 			var contador = 0;
 			var myVar;
-			
+
 			$(document).ready(function(){
 				myVar = setInterval(alertFunc, 5000);    
 			});
-			
+
 			function alertFunc() {
 				if (contador == 3) {
 					contador = 0;
-					} else {
+				} else {
 					contador ++;
 				}
 				$("#anunciom1").attr("src", b[contador]);   
 			};
-			
+
 		</script>
 	</head>
 	<body style="height:90px;">

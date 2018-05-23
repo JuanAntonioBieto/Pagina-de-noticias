@@ -2,17 +2,17 @@
 <rss version="2.0">
 	<channel>
 		<title>Hollow News</title>
-		<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/principal.html</link>
+		<link>../principal.html</link>
 		<description>Página de noticias de Hollow Knight</description>
 		<item>
 			<title>Página de noticias 1</title>
-			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia1.html</link>
+			<link>../noticia1.html</link>
 			<description>Actualización Lifeblood</description>
 		</item>
 		<item>
 			<title>Página de noticias 2</title>
-			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia2.html</link>
-			<description>Anunciado nuevo DLC Gods and Glory</description>
+			<link>../noticia2.html</link>
+			<description>Anunciado nuevo DLC Gods & Glory</description>
 		</item>
 	</channel>
 </rss>
