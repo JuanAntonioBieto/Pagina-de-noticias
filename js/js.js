@@ -39,7 +39,7 @@ $(".toggle").click(function(){
 function cargarNoticias() {
 	if (cargado < 3) {
 		$("#gif").show();
-		$.getJSON("https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/json/y" + cargado + ".json", function (jsonObject) {
+		$.getJSON("https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/json/" + cargado + ".json", function (jsonObject) {
 			añadirNoticias(jsonObject);
 			$("#gif").hide();
 		}); 
