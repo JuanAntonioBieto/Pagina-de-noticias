@@ -2,7 +2,7 @@
 	height:100%;
 	width:100%;
 }
-body,html,.jumbotron{
+body,html{
 	background-image:url("../img/clasic.png");
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -11,7 +11,9 @@ body,html,.jumbotron{
 	padding:0;
 }
 /*Página principal*/
-
+.jumbotron{
+	backgroud-color:rgba(0,0,0,0);
+}
 a{
 	color:white;
 }
