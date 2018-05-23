@@ -3,7 +3,7 @@ var activado = false;
 
 $(document).ready(function(){
 	$(window).scroll(function () {
-		if ($(window).scrollTop() + $(window).height() + 1 >= $(document).height() && activado == true) {
+		if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && activado == true) {
 			cargarNoticias();
 
 		}
