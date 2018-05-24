@@ -44,10 +44,12 @@ function cargarNoticias() {
 			$("#gif").hide();
 		}); 
 		cargado++;
-	} else {
-		$('#boton').text('No hay más noticias');
-	}
+		if (cargado > 2){
+			$('#boton').text('No hay más noticias');
+		}
+	}	
 };
+
 
 function añadirNoticias(json) {
 	$.each(json, function (i, item) {
@@ -58,7 +60,7 @@ function añadirNoticias(json) {
 			'<img data-toggle="modal" data-target="#myModal" class="img-responsive imagenes" id="imagen'  + (((cargado - 2)*3 + i + 1)+ 4) + '"src="' + item.imgbig +'"alt="imagen">' +
 			'</div>' +
 			'<div class="col-sm-8">' +
-			'<p class="titulos text-justify">' + item.title + '</p>' +
+			'<h2 class="titulos">' + item.title + '</h2>' +
 			'<p class="textos text-justify">' + item.description + '</p>' +
 			'<p class="fechas">' + item.datetime + '</p>' +
 			'</div>' +

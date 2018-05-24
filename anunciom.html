@@ -1,40 +1,40 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title> Hollow News </title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel='stylesheet' href='css/d.css'>
-		<script src="js/js.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script>
+<head>
+	<title> Hollow News </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-			var b = ["img/anunciom.png", "img/anunciom2.png", "img/anunciom3.png", "img/anunciom4.png"];
+	<script src="js/js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
 
-			var contador = 0;
-			var myVar;
+		var b = ["img/anunciom.png", "img/anunciom2.png", "img/anunciom3.png", "img/anunciom4.png"];
 
-			$(document).ready(function(){
-				myVar = setInterval(alertFunc, 5000);    
-			});
+		var contador = 0;
+		var myVar;
 
-			function alertFunc() {
-				if (contador == 3) {
-					contador = 0;
-				} else {
-					contador ++;
-				}
-				$("#anunciom1").attr("src", b[contador]);   
-			};
+		$(document).ready(function(){
+			myVar = setInterval(alertFunc, 5000);    
+		});
 
-		</script>
-	</head>
-	<body style="height:90px;">
-		<div  id="anunciom2">
-			<a href="anunciom.html"  target="_blank">
-				<img   id="anunciom1" src="img/anunciom.png" alt="imagen">
-			</a>
-		</div>
-	</body>
+		function alertFunc() {
+			if (contador == 3) {
+				contador = 0;
+			} else {
+				contador ++;
+			}
+			$("#anunciom1").attr("src", b[contador]);   
+		};
+
+	</script>
+</head>
+<body>
+	<div  id="anunciom2">
+		<a href="anunciom.html"  target="_blank">
+			<img   id="anunciom1" src="img/anunciom.png" alt="imagen">
+		</a>
+	</div>
+</body>
 </html>

@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 	<channel>
-		<title>Hollow News</title>
-		<link>../principal.html</link>
+		<title>Hollow Knight News</title>
+		<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/principal.html</link>
 		<description>Página de noticias de Hollow Knight</description>
+		<image>
+			<url>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/Icono.png</url>
+			<title>Hollow Knight News</title>
+			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/principal.html</link>
+		</image>
 		<item>
 			<title>Página de noticias 1</title>
-			<link>../noticia1.html</link>
-			<description>Actualización Lifeblood</description>
+			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia1.html</link>
+			<description>
+				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/life2.png">Actualización Lifeblood]]>
+			</description>
+			<pubDate>Tue, 24 Apr 2018 12:47:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Página de noticias 2</title>
-			<link>../noticia2.html</link>
-			<description>Anunciado nuevo DLC Gods & Glory</description>
+			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia2.html</link>
+			<description>
+				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/god2.png">Anunciado nuevo DLC Gods and Glory]]>
+			</description>
+			<pubDate>Tue, 30 Jan 2018 20:49:00 EST</pubDate>
 		</item>
 	</channel>
 </rss>
