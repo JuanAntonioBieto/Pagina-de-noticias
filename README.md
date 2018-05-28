@@ -71,9 +71,20 @@ Depués tenemos el texto de la noticia.
 Al terminar la noticia tenemos un video responsive que trata sobre la noticia.
 #### Fecha
 Por último abajo a la derecha del contenedor tenemos la fecha y hora.
-### Anuncios 
+#### Anuncios 
 Són iguales que la página principal tanto para la versión móvil como para la de ordenador.
 
+### Versión móvil:
+Aparte de lo que he dicho antes la única diferencia importante és que la noticia pasa de leerse en horizontal a leerse en vertical.
+
+## Características:
+
+### Botón scroll y botón cargar noticias:
+El botón de scroll permite cargar noticias bajando el scroll y a su vez esconde el botón de cargar noticias, esto lo hace cuando está 
+activado cuando no lo esta, el botón de cargar noticias es visible. Por defecto está desactivado.
+### Contenedor de las noticias:
+Aparte de lo que se ha dicho antes, cuando la pantalla es suficientemente estrecha el contenedor de la noticia se hace más grande para
+que pueda caber el texto.
 
 
 
