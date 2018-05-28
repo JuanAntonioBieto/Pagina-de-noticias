@@ -45,6 +45,7 @@ function cargarNoticias() {
 		}); 
 		cargado++;
 		if (cargado > 2){
+			$("#boton").show();
 			$('#boton').text('No hay más noticias');
 		}
 	}	
