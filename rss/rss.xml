@@ -3,7 +3,7 @@
 	<channel>
 		<title>Hollow Knight News</title>
 		<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/principal.html</link>
-		<description>Página de noticias de Hollow Knight</description>
+		<description>Noticias de Hollow Knight</description>
 		<image>
 			<url>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/Icono.png</url>
 			<title>Hollow Knight News</title>
@@ -13,7 +13,7 @@
 			<title>Página de noticias 1</title>
 			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia1.html</link>
 			<description>
-				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/life2.png">Actualización Lifeblood]]>
+				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/life2.png">Hollow Knight ha recibido una actualización la cual mejoran y cambian varios aspectos del juego, añáden un nuevo boss y nuevos elementos para el mapa. Esta actualización no tiene teaser, ya que no forma parte de las 3 expansiones que estaban planeadas.]]>
 			</description>
 			<pubDate>Tue, 24 Apr 2018 12:47:00 EST</pubDate>
 		</item>
@@ -21,7 +21,9 @@
 			<title>Página de noticias 2</title>
 			<link>https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/noticia2.html</link>
 			<description>
-				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/god2.png">Anunciado nuevo DLC Gods and Glory]]>
+				<![CDATA[<img src="https://rawgit.com/JuanAntonioBieto/Pagina-de-noticias/master/img/god2.png">Team Cherry ha anunciado, el tercer y último contenido gratuito de Hollow Knight: Gods & Glory.
+				Este DLC trae nuevas misiones, personajes, amuletos, jefes, música y un nuevo modo de juego.
+				Este contenido llegará a principios de 2018.]]>
 			</description>
 			<pubDate>Tue, 30 Jan 2018 20:49:00 EST</pubDate>
 		</item>
