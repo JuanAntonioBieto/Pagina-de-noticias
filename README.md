@@ -86,6 +86,9 @@ activado cuando no lo esta, el botón de cargar noticias es visible. Por defecto
 Aparte de lo que se ha dicho antes, cuando la pantalla es suficientemente estrecha el contenedor de la noticia se hace más grande para
 que pueda caber el texto.
 
+## Correcciones:
+He puesto el link del rss y cambiado el texto del meta description.
+
 
 
 
